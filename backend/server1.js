@@ -6,7 +6,7 @@ const cors = require('cors');
 app.use(cors());
 
 // Replace with your Bearer Token
-const bearerToken = ' AAAAAAAAAAAAAAAAAAAAAKH3qgEAAAAAAu4nlwdhp6luTD%2B1iz3uhfB3UtI%3DkrohnYxVcv8TRmBX1BMd0vRnHKAEgi9g87QyWJYmMz4V7mu7fF';
+const bearerToken = ' D%2B1iz3uhfB3UtI%3DkrohnYxVcv8TRmBX1BMd0vRnHKAEgi9g87QyWJYmMz4V7mu7fF';
 
 app.get('/trends', async (req, res) => {
     try {
