@@ -14,8 +14,8 @@ const PORT = process.env.PORT || 5000;
 
 // OpenAI SDK setup
 const openai = new OpenAIApi({
-    organization: 'org-sAIq7mEJ5lBxIDYjlYuNLHoQ',
-    apiKey: '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', // Ensure you have set your OpenAI API key in .env
+    organization: '#####',
+    apiKey: '#######', // Ensure you have set your OpenAI API key in .env
   });
 // Route to generate summary with OpenAI
 app.post('/generateSummary', async (req, res) => {
